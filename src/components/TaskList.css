@@ -1,0 +1,100 @@
+/* TaskList.css
+
+div {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  Button {
+    padding: 2px;
+    cursor: pointer;
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2px;
+  }
+  
+  Button[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+   */
+
+/* TaskList.css */
+
+div {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* tbody tr:hover {
+    background-color: #f5f5f5;
+  } */
+  
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  Button {
+    padding: 2px;
+    cursor: pointer;
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+  }
+  
+  Button[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    &:hover {
+      background-color: #cccccc;
+      cursor: not-allowed;
+    }
+  }
+  
